@@ -29,3 +29,23 @@
     border: 2px solid #8569CF;
     width: 150px;
 }
+.container .row .col-lg-5 .card .card-body form .row .col-3 .input-simulator{
+    border: 1px solid #333333;
+    border-radius: 70px;
+    height: 25px;
+    width: 120px;
+}
+.container .row .col-lg-5 .card .card-body form .row .col-6 .p-input{
+    float: right;
+    font-size: 14px;
+}
+.container .row .col-lg-5 .card .card-body form .btn-credit{
+    background-color: #8569CF;
+    border: 2px solid #8569CF;
+    border-radius: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    width: 190px;
+
+}
