@@ -1,0 +1,24 @@
+.container nav a{
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration:none !important;
+}
+.container nav .collapse form .btn-nav{
+    background: transparent;
+    border-radius: 70px;
+    font-size: 14px;
+    height: 30px;
+}
+
+.container nav .collapse form .btn1{
+    border: 2px solid #0099CC;
+    color: #0099CC;
+    width: 90px;
+}
+
+.container nav .collapse form .btn2{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 120px;
+}
