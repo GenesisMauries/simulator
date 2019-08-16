@@ -1,0 +1,31 @@
+.container .row .col-lg-6 .font-weight-bold .violet{
+    color: #8569CF;
+}
+.container .row .col-lg-6 .font-weight-light .violet{
+    color: #8569CF;
+}
+.container .row .col-lg-6 h6{
+    color:blue;
+    font-size: 17.5px;
+}
+.container .row .col-lg-6 .row .col-lg-4 button, .container .row .col-lg-6 .row .col-lg-3 button{
+    background: transparent;
+    border-radius: 70px;
+    color: #ffffff;
+    font-size: 12px;
+    height: 40px;
+}
+.container .row .col-lg-6 .row .col-lg-4 .btn-blue{
+    background-color: #0099cc;
+    border: 2px solid #0099CC;
+    width: 175px;
+}
+.container .row .col-lg-6 .row .col-lg-4 .btn-blue img{
+    background-color: #0099CC !important;
+    margin-left: 15px;
+}
+.container .row .col-lg-6 .row .col-lg-3 .btn-violet{
+    background-color: #8569CF;
+    border: 2px solid #8569CF;
+    width: 150px;
+}
