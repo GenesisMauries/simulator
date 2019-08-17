@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Simulator.css';
 import play from "../../Assets/btn-play.png"
+import Features from '../Features/Features'
 
 class Simulator extends Component{
     state={
@@ -32,12 +33,12 @@ class Simulator extends Component{
         return (
             <div className="container">
                 <div className="row mt-5">
-                    <div className="col-lg-6 col-md-7 col-sm-10 col-xs-12 ml-3 mt-4">
+                    <div className="col-lg-6 col-md-10 col-sm-12 col-xs-12 ml-3 mt-4">
                         <h1 className="font-weight-bold">Build applications <span className="violet font-weight-bold">faster</span></h1>
                         <h5 className="font-weight-normal mt-3">Hire experts & get your job done. The right IT security solutions. Protect your clientes and computer systems from hackers and fight against malware.</h5>
                         <h6 className="font-weight-light mt-5 mb-5">For as low as <span className="violet font-weight-bold">$0.95 </span>per user account</h6>
                         <div className="row">
-                            <div className="col-lg-4 mr-lg-5 col-md-6 mr-md-1 col-sm-6 col-xs-6">
+                            <div className="col-lg-4 mr-lg-4 col-md-4 col-sm-5 col-xs-4">
                                 <button className="btn-blue ">WATCH DEMO<img src={play} alt="btn-play"/></button>
                             </div>
                             <div className="col-lg-3 col-md-5 col-sm-5 col-xs-5">
@@ -46,8 +47,8 @@ class Simulator extends Component{
                         </div>
                     </div>
 
-                    <div className="col-lg-5 mt-4">
-                        <div className="card text-center  mx-3 my-2" style={{width: "20rem"}}>
+                    <div className="col-lg-5 col-md-10 col-sm-12 col-xs-12 mt-4">
+                        <div className="card text-center" style={{width: "85%"}}>
                             <div className="card-body">
                                 <h5 className="font-weight-bold">SIMULADOR DE CRÉDITO</h5>
                                 <hr id="hr-title"/>
@@ -128,6 +129,7 @@ class Simulator extends Component{
                         </div>
                     </div>
                 </div>
+                <Features/>
             </div>
         );
     }
