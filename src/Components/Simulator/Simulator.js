@@ -22,12 +22,12 @@ class Simulator extends Component{
         let porcentaje= this.state.tasa/100
         // console.log(porcentaje)
 
-        let pagoMensual = this.state.monto/this.state.meses*porcentaje
+        let pagoMensual = Math.round(this.state.monto/this.state.meses*porcentaje)
         // console.log(pagoMensual)
 
         let montoNeto= this.state.monto*this.state.meses-this.state.apertura
         // console.log(montoNeto)
-        let total = this.state.monto+this.state.apertura*porcentaje
+        let total = Math.round (this.state.monto+this.state.apertura*porcentaje)
         // console.log(total)
 
         return (
@@ -48,7 +48,7 @@ class Simulator extends Component{
                     </div>
 
                     <div className="col-lg-5 col-md-10 col-sm-12 col-xs-12 mt-4">
-                        <div className="card text-center" style={{width: "85%"}}>
+                        <div className="card text-center" style={{width: "75%"}}>
                             <div className="card-body">
                                 <h5 className="font-weight-bold">SIMULADOR DE CRÉDITO</h5>
                                 <hr id="hr-title"/>
@@ -57,6 +57,7 @@ class Simulator extends Component{
                                     <input type="range" className="form-control-range" min={1000} max={5000} id="formControlRange" name="monto" value={this.state.monto} onChange={this.handleOnChange}/>
                                     <p className="font-weight-bold text-right" >Tasa anual</p>
                                     <input type="range" className="form-control-range" min={8.9} max={14} id="formControlRange" name="tasa" value={this.state.tasa} onChange={this.handleOnChange}/>
+                                    <output >{this.state.tasa}</output>
                                     <div className="row">
                                         <p className="font-weight-bold text-center col-12 mt-3">Plazo en meses</p>
                                         <div className="form-check col-4">

@@ -5,7 +5,7 @@
     color: #8569CF;
 }
 .container .row .col-lg-6 h6{
-    color:blue;
+    color:#65C8DB;
     font-size: 17.5px;
 }
 .container .row .col-lg-6 .row .col-lg-4 button, .container .row .col-lg-6 .row .col-lg-3 button{
@@ -16,12 +16,12 @@
     height: 40px;
 }
 .container .row .col-lg-6 .row .col-lg-4 .btn-blue{
-    background-color: #0099cc;
-    border: 2px solid #0099CC;
+    background-color: #65C8DB;
+    border: 2px solid #65C8DB;
     width: 175px;
 }
 .container .row .col-lg-6 .row .col-lg-4 .btn-blue img{
-    background-color: #0099CC !important;
+    background-color: #65C8DB !important;
     margin-left: 15px;
 }
 .container .row .col-lg-6 .row .col-lg-3 .btn-violet{

@@ -6,11 +6,13 @@
   background-image: url("./Assets/bg.jpg");
   background-position: center;
   background-size: cover;
-
 } */
 .container-fluid{
   position:relative;
-  /* width: 100%; */
+  
+}
+.bg-gray{
+  background-color: #F7F8FA;
 }
 /* .container-fluid{
   background-image: url("./Assets/bg.jpg");
